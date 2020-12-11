@@ -16,7 +16,6 @@ PlaygroundPage.current.liveView = canvas
 
 
 // random shape drawing instructions
-
 func pgram(){
     turtle.forward(steps: 50)
     turtle.left(by: 50)
@@ -266,3 +265,7 @@ turtle.left(by: 90)
 turtle.forward(steps: 35)
 turtle.penUp()
 turtle.right(by: 180)
+
+turtle.copySVGToClipboard()
+
+
